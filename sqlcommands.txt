@@ -1,0 +1,9 @@
+CREATE TABLE car_sim_data (
+    index BIGINT PRIMARY KEY,
+    speed FLOAT,
+    acceleration FLOAT,
+    direction FLOAT,
+    latitude FLOAT,
+    longitude FLOAT,
+    proximity FLOAT
+);
